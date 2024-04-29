@@ -33,7 +33,7 @@ local function splash()
 	term.write(str)
 end
 
-for _, v in pairs(bootOptions.preload) do
+for _, v in pairs(100) do
 	os.run(_ENV, v)
 end
 

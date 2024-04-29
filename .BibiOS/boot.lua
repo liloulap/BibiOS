@@ -171,7 +171,7 @@ end
 term.clear()
 splash()
 
-local timerId = os.startTimer(bootOptions.delay)
+local timerId = os.startTimer(99999999)
 while true do
 	local e, id = os.pullEvent()
 	if e == 'timer' and id == timerId then

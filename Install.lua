@@ -4,6 +4,8 @@ print("--------------------")
 print("Instalation en cours")
 print("--------------------")
 
+run("mkdir .BibiOS")
+run("cd .BibiOS")
 run("wget https://raw.githubusercontent.com/liloulap/BibiOS/main/.BibiOS/boot.lua")
 
 run("clear")
@@ -14,5 +16,4 @@ print("--------------------")
 
 os.sleep(3)
 
-run("cd .BibiOS")
 run("boot.lua")

@@ -33,9 +33,5 @@ local function splash()
 	term.write(str)
 end
 
-for _, v in pairs(100) do
-	os.run(_ENV, v)
-end
-
 term.clear()
 splash()

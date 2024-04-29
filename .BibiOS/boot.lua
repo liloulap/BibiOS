@@ -29,11 +29,8 @@ local function loadBootOptions()
 			delay = 1.5,
 			preload = { },
 			menu = {
-				{ prompt = os.version() },
-				{ prompt = 'CorpOs'   , args = { '/.corpos/run.lua' } },
-				{ prompt = 'Debug mod'   , args = { '/.corpos/debug/debug.lua' } },
-				{ prompt = 'Update/Install'   , args = { '/.corpos/debug/reinstallOS.lua' } },
-				{ prompt = 'Unistall'    , args = { '/.corpos/debug/uninstall.lua' } },
+				{ prompt = 'With interface (WM)'   , args = { '/.BibiOS/wm.lua' } },
+				{ prompt = 'Update/Install'   , args = { '/.BibiOS/Install.lua' } },
 			},
 		}))
 		f.close()

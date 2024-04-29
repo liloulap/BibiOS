@@ -15,7 +15,7 @@ run("clear")
 
 term.setTextColor(colors.red)
 print("--------------------")
-term.setTextColor(colors.yelow)
+term.setTextColor(colors.yellow)
 print("Instalation en cours")
 term.setTextColor(colors.blue)
 print("--------------------")

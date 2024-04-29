@@ -1,10 +1,10 @@
 local run = shell.run
 
-term.set.TextColor(colors.blue)
+term.setTextColor(colors.blue)
 print("--------------------")
-term.set.TextColor(colors.red)
+term.setTextColor(colors.red)
 print("Instalation en cours")
-term.set.TextColor(colors.green)
+term.setTextColor(colors.green)
 print("--------------------")
 
 run("mkdir .BibiOS")
@@ -13,11 +13,11 @@ run("wget https://raw.githubusercontent.com/liloulap/BibiOS/main/.BibiOS/boot.lu
 
 run("clear")
 
-term.set.TextColor(colors.blue)
+term.setTextColor(colors.blue)
 print("--------------------")
-term.set.TextColor(colors.red)
+term.setTextColor(colors.red)
 print("Instalation en cours")
-term.set.TextColor(colors.green)
+term.setTextColor(colors.green)
 print("--------------------")
 
 os.sleep(3)

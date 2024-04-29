@@ -141,17 +141,17 @@ local function splash()
 		term.setBackgroundColor(colors.black)
 		term.clear()
 		local opus = {
-			'fffff00',
-			'ffff07000',
-			'ff00770b00f4444',
-			'ff077777444444444',
-			'f07777744444444444',
-			'f0000777444444444',
-			'070000111744444',
-			'777770000',
-			'7777000000',
-			'70700000000',
-			'077000000000',
+			'       eeeeeeeeee',
+			'      eee333333eee',
+			'     eee33444433eee',
+			'    eee3344444433eee',
+			'   eeee33444444333eee',
+			'  eee33344444444333eee',
+			'  eee33344444444333eee',
+			'   eeee33444444333eee',
+			'    eee3344444433eee',
+			'     eee33444433eee',
+			'      eee333333eee',
 		}
 		for k,line in ipairs(opus) do
 			term.setCursorPos((w - 18) / 2, k + (h - #opus) / 2)
